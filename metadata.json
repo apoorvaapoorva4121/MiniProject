@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of EcoBrick AI",
+  "description": " AI-powered plastic identification and brick manufacturing assistant.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
