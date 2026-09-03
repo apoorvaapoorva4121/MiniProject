@@ -1,20 +1,56 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Smart Plastic Conversion Suggestion System
 
-# Run and deploy your AI Studio app
+## About the Project
 
-This contains everything you need to run your app locally.
+The Smart Plastic Conversion Suggestion System is a smart application that calculates the required quantities of plastic waste, sand, and other aggregates needed to produce a brick. It helps users determine suitable material proportions for converting waste plastic into useful and sustainable construction bricks.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1nlAcDDKg7Taeo7UG5qdWH2568YgLb9rj
+## Features
 
-## Run Locally
+- Calculates the required quantity of plastic waste
+- Suggests the required amount of sand
+- Suggests other aggregate quantities
+- Provides material proportion suggestions
+- Simple and user-friendly interface
+- AI-assisted suggestions using Gemini API
 
-**Prerequisites:**  Node.js
+## Technologies Used
 
+- React
+- TypeScript
+- Vite
+- Gemini API
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## How to Run
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Set Gemini API Key
+
+Create a `.env.local` file and add your Gemini API key:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+### Run the Application
+
+```bash
+npm run dev
+```
+
+## Objective
+
+The main objective of this project is to promote the effective use of waste plastic by providing material quantity suggestions for producing sustainable bricks.
+
+## Future Enhancements
+
+- Cost estimation for brick production
+- Environmental impact analysis
+- Support for different brick sizes
+- Improved AI-based material recommendations
+- Detailed calculation reports
+
